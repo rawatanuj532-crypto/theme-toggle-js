@@ -1,0 +1,47 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+/* Light Theme */
+body.light {
+  background: #ffffff;
+  color: #111;
+}
+
+/* Dark Theme */
+body.dark {
+  background: #111;
+  color: #ffffff;
+}
+
+/* Button Style */
+#theme-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+/* Button Dark Mode */
+body.dark #theme-btn {
+  background: #333;
+  color: #fff;
+}
+
+/* Content */
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
